@@ -1,19 +1,39 @@
 {
-  "name": "ghrix-services",
-  "version": "1.0.0",
-  "description": "APIs for Ghrix-Services",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rahul-prabhakar/ghrix-services.git"
-  },
-  "author": "Rahul Prabhakar",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rahul-prabhakar/ghrix-services/issues"
-  },
-  "homepage": "https://github.com/rahul-prabhakar/ghrix-services#readme"
+    "name": "ghrix-services",
+    "version": "1.0.0",
+    "description": "APIs for Ghrix-Services",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rahul-prabhakar/ghrix-services.git"
+    },
+    "author": "Rahul Prabhakar",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rahul-prabhakar/ghrix-services/issues"
+    },
+    "homepage": "https://github.com/rahul-prabhakar/ghrix-services#readme",
+    "dependencies": {
+        "@casl/ability": "^2.5.0",
+        "@casl/mongoose": "^2.2.1",
+        "body-parser": "^1.18.3",
+        "casl": "^1.1.0",
+        "email-templates": "^5.0.1",
+        "express": "^4.16.4",
+        "jsonwebtoken": "^8.3.0",
+        "mongodb": "^3.1.8",
+        "mongoose": "^5.3.3",
+        "mongoose-counters": "^1.0.2",
+        "mongoose-schema-jsonschema": "^1.1.15",
+        "mongoose-type-email": "^1.0.9",
+        "nodemailer": "^4.6.8",
+        "passport": "^0.4.0",
+        "passport-jwt": "^4.0.0",
+        "passport-local": "^1.0.0",
+        "passport-local-mongoose": "^5.0.1"
+    }
 }

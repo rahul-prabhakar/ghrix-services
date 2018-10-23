@@ -1,0 +1,1 @@
+exports.secrets = { "NoPermission": "SecretKey", "Admin": "AdminKey", "Employee": "EmployeeKey" }
